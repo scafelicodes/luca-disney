@@ -254,3 +254,38 @@ header .menu-icon {
   top: 4px;
   left: 7px;
 }
+
+@media screen and (max-width: 728px) {
+  body {
+    background-color: #000;
+  }
+
+  header .content {
+    width: 85%;
+  }
+
+  .home-content {
+    height: auto;
+  }
+
+  .movie-info .logo img {
+    width: 140px;
+  }
+
+  .movie-info .description {
+    font-size: 14px;
+  }
+
+  .movie-info {
+    margin-top: 180px;
+    margin-bottom: 180px;
+  }
+
+  .home-content .content {
+    flex-direction: column;
+  }
+
+  .more-movies {
+    margin-bottom: 80px;
+  }
+}
